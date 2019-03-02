@@ -1,0 +1,9 @@
+class Program {
+  void main() {
+    foo();	// semanitcally bad, but gramatically ok
+    x=1+11*5;
+    print(x);
+  }
+
+  void foo() {}
+}
